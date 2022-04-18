@@ -7,13 +7,13 @@ import zipfile
 from collections import Counter
 from clint.textui import progress
 
-from metrics.bleu_metrics import BleuMetrics
-from metrics.distinct_metrics import DistinctMetrics
-from metrics.entropy_metrics import EntropyMetrics
-from metrics.embedding_metrics import EmbeddingMetrics
-from metrics.divergence_metrics import DivergenceMetrics
-from metrics.coherence_metrics import CoherenceMetrics
-from utils import utils
+from .bleu_metrics import BleuMetrics
+from .distinct_metrics import DistinctMetrics
+from .entropy_metrics import EntropyMetrics
+from .embedding_metrics import EmbeddingMetrics
+from .divergence_metrics import DivergenceMetrics
+from .coherence_metrics import CoherenceMetrics
+from ..utils import utils
 
 
 class Metrics:

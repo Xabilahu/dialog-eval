@@ -1,4 +1,4 @@
-from utils import utils
+from ..utils import utils
 
 
 # https://www.aclweb.org/anthology/N16-1014

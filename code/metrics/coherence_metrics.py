@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.spatial import distance
 
-from metrics.embedding_metrics import EmbeddingMetrics
+from .embedding_metrics import EmbeddingMetrics
 
 
 # https://arxiv.org/pdf/1809.06873.pdf

@@ -1,6 +1,6 @@
 import math
 
-from utils import utils
+from ..utils import utils
 
 
 # https://arxiv.org/abs/1905.05471
